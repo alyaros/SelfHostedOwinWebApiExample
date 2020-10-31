@@ -171,41 +171,6 @@ namespace SelfHostedWebApiExample
 
         private static readonly ILog Logger = LogManager.GetLogger(nameof(Program));
 
-        //Assuming .NET4.8 Framework Running on Windows and .NetCore can't be used.
-        //SelfHosted Owin WebApi Hosted on Windows Service with TopShelf.
-        //Alternative is Using WebApi Hosted on IIS
-    
-        //Nugets Used:
-        //Install-Package Topshelf -Version 4.2.1
-        //Install-Package log4net -Version 2.0.12
-        //Install-Package Microsoft.AspNet.WebApi.OwinSelfHost
-        //Install-Package Microsoft.Owin.Hosting
-
-
-        //IIS Vs SelfHosted:
-        //https://www.uship.com/blog/shipping-code/self-hosting-a-net-api-choosing-between-owin-with-asp-net-web-api-and-asp-net-core-mvc-1-0/
-        //HttpContext.Current: This will be null. (See Link for workaround)
-        //Can Read HTTPRequest Stream Only Once. (See Link for details and workaround)
-
-
-        //Performance Tunning:
-        
-        //When Using IIS some of the performance params are much more easy to tune in compare to selfHosted Owin.
-        //And some we are not able to modify at all.
-   
-        //https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/web/applicationpool-element-web-settings
-        //https://stackoverflow.com/questions/9982600/limiting-performance-factors-of-websocket-in-asp-net-4-5
-        //https://github.com/SignalR/SignalR/wiki/Performance
-        //https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Host.HttpListener/OwinHttpListener.cs
-        //https://docs.microsoft.com/en-us/previous-versions/office/communications-server/dd425294(v=office.13)
-
-        //DefaultRequestQueueLength
-        //ASP.NET Request Queue Limit
-        //maxConcurrentRequestsPerCPU
-        //maxConcurrentThreadsPerCPU
-        //requestQueueLimit
-
-
         public static void Main(string[] args)
         {
             var settings = new Settings();
