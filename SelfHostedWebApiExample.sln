@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostedWebApiExample", "SelfHostedWebApiExample\SelfHostedWebApiExample.csproj", "{D413B41C-AE39-4343-9B6D-180833B2C6AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Prod|Any CPU = Prod|Any CPU
+		QA|Any CPU = QA|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D413B41C-AE39-4343-9B6D-180833B2C6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D413B41C-AE39-4343-9B6D-180833B2C6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D413B41C-AE39-4343-9B6D-180833B2C6AD}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{D413B41C-AE39-4343-9B6D-180833B2C6AD}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{D413B41C-AE39-4343-9B6D-180833B2C6AD}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{D413B41C-AE39-4343-9B6D-180833B2C6AD}.QA|Any CPU.Build.0 = QA|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F415D34-97DE-4577-A8C6-CE0EEBBACB5F}
+	EndGlobalSection
+EndGlobal
