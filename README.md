@@ -4,4 +4,5 @@
 - Using .Net 4.8
 - Example Custome MiddleWare
 - Performance Considerations and Limitations in compare to WebApi on IIS. 
+- Console application including App.Config Transformations.
 
